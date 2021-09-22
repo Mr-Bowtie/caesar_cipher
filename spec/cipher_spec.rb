@@ -9,7 +9,7 @@ describe CaesarCipher do
     end
 
     it 'works with small negative shifts' do
-      expect(cipher.shift('Dd', -3)).to eql('Aa')
+      expect(cipher.shift('Zz', -24)).to eql('Bb')
     end
 
     it 'wraps from a to z' do
